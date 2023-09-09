@@ -1,10 +1,7 @@
-const messages = [
-  "LOL",
-  "ApexLegends",
-  "Valorant",
-  "Steamゲーム",
-  "アニメをみよう！"
-];
+function navigateToAnotherPage() {
+  window.location.href = 'CtralA.html';
+}
+
 
 function popBalloon(element) {
   element.style.visibility = 'hidden';  // 風船を非表示にする
@@ -12,13 +9,5 @@ function popBalloon(element) {
   document.getElementById('message').textContent = messages[randomIndex];
 }
 
-function addCustomMessage() {
-  const customMessage = document.getElementById('customMessage').value;
-  if (customMessage.trim()) {
-      messages.push(customMessage);
-      document.getElementById('customMessage').value = ''; 
-      alert('メッセージを追加しました!');
-  } else {
-      alert('メッセージを入力してください。');
-  }
-}
+
+
