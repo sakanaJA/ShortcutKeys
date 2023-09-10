@@ -9,5 +9,8 @@ function popBalloon(element) {
   document.getElementById('message').textContent = messages[randomIndex];
 }
 
+function temp() {
+  alert('実装中なのでちょっと待ってね♡');
+}
 
 
