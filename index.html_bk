@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ショートカット練習</title>
+    <link rel="icon" type="image/x-icon" href="key.png" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>ショートカット練習</H2>
+    <div class="game-area">
+        <button class="balloon" onclick="navigateToAnotherPage()">Ctrl + A</button>
+        <button class="balloon" onclick="temp()">9/17</button>
+        <button class="balloon" onclick="temp()">9/24</button>
+        <button class="balloon" onclick="temp()">10/1</button>
+        <!-- ... 任意の数の風船を追加 ... -->
+    </div>
+
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>

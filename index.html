@@ -2,21 +2,140 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>ショートカット練習</title>
-    <link rel="icon" type="image/x-icon" href="key.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortcut Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>ショートカット練習</H2>
-    <div class="game-area">
-        <button class="balloon" onclick="navigateToAnotherPage()">Ctrl + A</button>
-        <button class="balloon" onclick="temp()">9/17</button>
-        <button class="balloon" onclick="temp()">9/24</button>
-        <button class="balloon" onclick="temp()">10/1</button>
-        <!-- ... 任意の数の風船を追加 ... -->
-    </div>
+<div class="vegetables">
+    <ul class="page">
+      <li>
+        <figure>
+          <span class="balloon" onclick="CtrlA()" style="cursor:pointer;">Ctrl + A</span>
+          <figcaption class="title">全選択</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="CtrlT()" style="cursor:pointer;">Ctrl + T</span>
+          <figcaption class="title">新しいタブを開く</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+    </ul>
+    <!-- Page 1 -->
 
-    <p id="message"></p>
-    <script src="script.js"></script>
+    <ul class="page">
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+    </ul>
+    <!-- Page 2 -->
+
+    <ul class="page">
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <span class="balloon" onclick="temp()" style="cursor:pointer;">実装中</span>
+          <figcaption class="title">実装中</figcaption>
+        </figure>
+      </li>
+    </ul>
+    <!-- Page 3 -->
+
+  </div>
+  
+  <div class="pagination">
+    <button id="prevPage">Previous</button>
+    <div class="pagination-numbers"></div>
+    <button id="nextPage">Next</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
