@@ -1,5 +1,5 @@
 function navigateToAnotherPage() {
-  window.location.href = 'CtralA.html';
+  window.location.href = 'CtrlA/CtralA.html';
 }
 
 

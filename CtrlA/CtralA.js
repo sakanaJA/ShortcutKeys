@@ -10,5 +10,5 @@ document.getElementById('inputField').addEventListener('keydown', function(event
 });
 
 function back() {
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
   }
