@@ -91,4 +91,8 @@ function temp() {
   alert('実装中なのでちょっと待ってね♡');
 }
 
-
+window.onload = function() {
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+		alert('本サイトはPCのみ接続可能');
+	}
+  };
